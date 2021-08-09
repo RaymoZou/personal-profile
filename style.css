@@ -1,0 +1,32 @@
+body {
+    background-color: #CFDBF4;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 15%;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 5rem;
+    display: none;
+}
+
+div {
+    /* background-color: blue; */
+    height: 300px;
+}
+
+hr {
+    /* background-color: red; */
+    bottom: 1rem;
+    opacity: 50%;
+    /* margin: 6rem auto; */
+    height: 100px;
+    width: 20%;
+    border-top: 1rem solid white;
+    border-style: solid none none;
+}
+
+.name {
+    margin: auto;
+}
