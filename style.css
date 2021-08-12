@@ -61,6 +61,11 @@ hr {
     color: #1DA1F2;
 }
 
+.github:hover {
+    /* color: #f0f6fc; */
+    color: #333;
+}
+
 
 
 div a {
