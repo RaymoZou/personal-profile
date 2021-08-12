@@ -1,27 +1,31 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    margin: 0px;
     background-color: #CFDBF4;
     text-align: center;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
 }
 
 h1 {
     margin-top: 15%;
-    color: white;
     font-family: 'Architects Daughter', cursive;
     font-size: 5rem;
     display: none;
 }
 
-div {
-    /* background-color: blue; */
-    height: 300px;
+.title {
+    /* div is given a constant height so html flow is not interrupted */
+    height: 300px; 
 }
 
 hr {
-    /* background-color: red; */
     bottom: 1rem;
     opacity: 50%;
-    /* margin: 6rem auto; */
-    height: 100px;
     width: 20%;
     border-top: 1rem solid white;
     border-style: solid none none;
@@ -29,4 +33,38 @@ hr {
 
 .name {
     margin: auto;
+}
+
+.footer {
+    background-color: rgb(0, 218, 196);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    font-size: 1.25rem;
+    display: inline-block;
+    padding: 4rem 2rem;
+}
+
+.facebook:hover {
+    color: #4267B2;
+}
+
+.instagram:hover {
+    color: #E1306C;
+}
+
+.twitter:hover {
+    color: #1DA1F2;
+}
+
+
+
+div a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
 }
