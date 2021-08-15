@@ -11,6 +11,14 @@ body {
     font-size: 2rem;
 }
 
+hr {
+    bottom: 1rem;
+    width: 20%;
+    border-top: 1rem solid #ffffff80;
+    border-style: solid none none;
+}
+
+
 .title {
     margin-top: 15%;
     margin-bottom: 15%;
@@ -20,35 +28,24 @@ body {
     display: none;
 }
 
-#name-tag {
-    color: #2193E8;
-    display: inline;
-}
-
-/* 
-.title p, h1, h2, h3, h4, h5, h6 {
-    padding: 2rem;
-} */
-
-hr {
-    bottom: 1rem;
-    opacity: 50%;
-    width: 20%;
-    border-top: 1rem solid white;
-    border-style: solid none none;
-}
-
 .nav-bar {
     background-color: #0DA1B2;
     height: 50px;
     width: 100%;
     position: fixed;
     top: 0;
-    opacity: 1;
 }
 
-.nav-bar p {
-    margin: 0px;
+.nav-bar a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.nav-bar a:hover {
+    color: rgb(219, 219, 219);
 }
 
 .footer {
@@ -83,4 +80,33 @@ hr {
     color: white;
     display: inline-block;
     text-decoration: none;
+}
+
+.work-experience-header {
+    font-size: 5rem;
+    margin: 20rem 0rem 0rem;
+}
+
+.work-experience {
+    display: inline-block;
+    margin: 3rem;
+    /* padding: 3rem; */
+    width: 40%;
+    text-align: left;
+}
+
+.work-experience h1 {
+    /* margin: 0px; */
+    font-size: 3rem;
+}
+
+.work-experience-date {
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+
+
+#name-tag {
+    color: #2193E8;
+    display: inline;
 }
