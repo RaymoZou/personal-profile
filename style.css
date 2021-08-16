@@ -20,11 +20,17 @@ hr {
 
 
 .title {
+    font-size: 3.5rem;
     margin-top: 15%;
     margin-bottom: 15%;
 }
 
-.title h1 {
+
+.inline-block {
+    display: inline-block;
+}
+
+.title .intro {
     display: none;
 }
 
@@ -82,29 +88,26 @@ hr {
     text-decoration: none;
 }
 
-.work-experience-header {
-    font-size: 5rem;
-    margin: 20rem 0rem 0rem;
-}
-
-.work-experience {
-    display: inline-block;
-    margin: 3rem;
-    /* padding: 3rem; */
-    width: 40%;
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
     text-align: left;
+    margin: 2rem 10rem;
 }
 
-.work-experience h1 {
-    /* margin: 0px; */
-    font-size: 3rem;
+.container-header {
+    margin-top: 20rem;
+    font-size: 5rem;
+    text-decoration: underline;
 }
 
-.work-experience-date {
-    margin: 0.5rem;
-    font-size: 2rem;
+.item {
+    margin: 2rem;
 }
 
+
+/* ids */
 
 #name-tag {
     color: #2193E8;

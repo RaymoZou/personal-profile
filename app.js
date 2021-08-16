@@ -5,7 +5,8 @@ $(document).ready(function () {
 });
 
 function fadeInName() {
+    $("#name-tag").css("display", "none")
     $(".intro").fadeIn(fadeInSpeed, () => {
-        $(".name").fadeIn(fadeInSpeed);
+        $("#name-tag").fadeIn(fadeInSpeed);
     });
 }
