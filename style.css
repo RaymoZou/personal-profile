@@ -4,17 +4,17 @@ html {
 
 body {
     margin: 0px;
-    background-color: #CFDBF4;
+    background-color: #0E6B6C;
     text-align: center;
-    color: white;
+    color: #E7ECEF;
     font-family: 'Rubik', sans-serif;
     font-size: 2rem;
 }
 
 hr {
     bottom: 1rem;
-    width: 20%;
-    border-top: 1rem solid #ffffff80;
+    width: 30%;
+    border-top: 0.3rem solid #E7ECEF;
     border-style: solid none none;
 }
 
@@ -35,7 +35,7 @@ hr {
 }
 
 .nav-bar {
-    background-color: #0DA1B2;
+    background-color: #363945;
     height: 50px;
     width: 100%;
     position: fixed;
@@ -43,7 +43,7 @@ hr {
 }
 
 .nav-bar a {
-    color: white;
+    color: #E7ECEF;
     display: inline-block;
     text-decoration: none;
     font-size: 1.5rem;
@@ -55,7 +55,7 @@ hr {
 }
 
 .footer {
-    background-color: rgb(0, 218, 196);
+    background-color: #22333B;
     position: absolute;
     width: 100%;
 }
@@ -83,7 +83,7 @@ hr {
 }
 
 .footer-container a {
-    color: white;
+    color: #E7ECEF;
     display: inline-block;
     text-decoration: none;
 }
@@ -100,16 +100,32 @@ hr {
     margin-top: 20rem;
     font-size: 5rem;
     text-decoration: underline;
+    color: #a2d2ff;
 }
 
 .item {
     margin: 2rem;
 }
 
+.item h1 {
+    font-size: 3rem;
+    display: inline-block;
+}
+
+.item i {
+    margin-left: 1rem;
+    display: inline-block;
+    color: #E7ECEF;
+}
+
+.item i:hover {
+    color: #b7e5ff;
+}
+
 
 /* ids */
 
 #name-tag {
-    color: #2193E8;
+    color: #a2d2ff;
     display: inline;
 }
