@@ -108,8 +108,17 @@ hr {
 }
 
 .item h1 {
+    margin: 0px auto;
     font-size: 3rem;
     display: inline-block;
+}
+
+.item h5 {
+    margin: 0px auto;
+}
+
+.item li {
+    margin-top: 2rem;
 }
 
 .item i {
@@ -121,7 +130,6 @@ hr {
 .item i:hover {
     color: #b7e5ff;
 }
-
 
 /* ids */
 
