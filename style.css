@@ -4,11 +4,15 @@ html {
 
 body {
     margin: 0px;
-    background-color: #0E6B6C;
+    /* background-color: #0E6B6C; */
+    /* #111b1 */
+    background-image: linear-gradient(#0E6B6C, #000000);
     text-align: center;
-    color: #E7ECEF;
+    /* color: #E7ECEF; */
+    color: white;
     font-family: 'Rubik', sans-serif;
     font-size: 2rem;
+    font-weight: normal; 
 }
 
 hr {
@@ -22,7 +26,7 @@ hr {
 .title {
     font-size: 3.5rem;
     margin-top: 15%;
-    margin-bottom: 15%;
+    margin-bottom: 20%;
 }
 
 
@@ -34,8 +38,13 @@ hr {
     display: none;
 }
 
+.intro {
+    margin: 0px auto;
+}
+
 .nav-bar {
-    background-color: #363945;
+    /* background-color: #363945; */
+    background-color: #000000;
     height: 50px;
     width: 100%;
     position: fixed;
@@ -48,14 +57,28 @@ hr {
     text-decoration: none;
     font-size: 1.5rem;
     text-align: center;
+    margin: auto 5rem;
 }
 
 .nav-bar a:hover {
     color: rgb(219, 219, 219);
 }
 
+.nav-bar p {
+    color: #E7ECEF;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: right;
+    margin: auto 5rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+}
+
 .footer {
-    background-color: #22333B;
+    /* background-color: #22333B;  */
+    background-color: #000000;
     position: absolute;
     width: 100%;
 }
@@ -88,23 +111,30 @@ hr {
     text-decoration: none;
 }
 
-.container {
+.item-container {
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
     text-align: left;
-    margin: 2rem 10rem;
+    margin: 0rem 5rem;
+}
+
+.container {
+    padding: 10rem 2rem;
 }
 
 .container-header {
-    margin-top: 20rem;
-    font-size: 5rem;
-    text-decoration: underline;
-    color: #a2d2ff;
+    margin: 0rem auto;
+    padding-top: 0rem;
+    font-size: 7rem;
+    font-weight: 900;
+    /* text-decoration: underline; */
+    /* color: #a2d2ff; */
+    color: white;
 }
 
 .item {
-    margin: 2rem;
+    padding: 1rem;
 }
 
 .item h1 {
@@ -132,6 +162,26 @@ hr {
 }
 
 /* ids */
+
+#education-container {
+    background-color: #E07A5F;
+}
+
+#projects-container {
+    background-color: #3D405B;
+}
+
+#work-experience-container {
+    background-color: #81B29A;
+}
+
+/* #work-experience {
+    margin: 50rem auto auto;
+} */
+
+#hi {
+    font-size: 10rem;
+}
 
 #name-tag {
     color: #a2d2ff;

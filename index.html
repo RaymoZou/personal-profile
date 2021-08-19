@@ -25,53 +25,66 @@
 <body>
 
   <div class="nav-bar">
-    <a href="#work-experience">| work experience</a>
-    <a href="#">| home |</a>
-    <a href="#projects">projects |</a>
+    <a href="#work-experience-container">work experience</a>
+    <a href="#">home</a>
+    <a href="#projects-container">projects</a>
+    <p>778-988-9076</p>
   </div>
 
   <div class="title">
-    <h1 class="intro">hiya,</h1>
-    <h1 class="intro">i'm <span id="name-tag">raymond</span></h1>
+    <h1 class="intro" id="hi">Hi,</h1>
+    <h1 class="intro">I'm <p id="name-tag">Raymond</p></h1>
     <hr>
-    <p>just chillin', wbu?</p>
+    <!-- <p>just chillin', wbu?</p> -->
   </div>
 
   <!-- work experience -->
-  <h1 class="container-header" id="work-experience">work experience</h1>
-  <div class="container">
-    <div class="item">
-      <h1>Triple O's, Pacific National Exhibition (PNE)</h1>
-      <h5 class="work-experience-date">06/2017 - present</h5>
-      <li>Worked in a high intensity environment to serve food in a timely manner</li>
-    </div>
-    <div class="item">
-      <h1>Christine Sinclair Community Centre</h1>
-      <h5 class="work-experience-date">06/2021 - 08/2021</h5>
-      <li>Directed and checked in guests for COVID-19 vaccinations</li>
+  <div id="work-experience-container" class="container">
+    <h1 class="container-header" id="work-experience">Work Experience</h1>
+    <div class="item-container">
+      <div class="item">
+        <h1>Triple O's, Pacific National Exhibition (PNE)</h1>
+        <h5 class="work-experience-date">06/2017 - present</h5>
+        <li>Worked in a high intensity environment to serve food in a timely manner</li>
+      </div>
+      <div class="item">
+        <h1>Christine Sinclair Community Centre</h1>
+        <h5 class="work-experience-date">06/2021 - 08/2021</h5>
+        <li>Directed and checked in guests for COVID-19 vaccinations</li>
+      </div>
     </div>
   </div>
 
-  <hr>
+  <!-- <hr> -->
 
   <!-- projects -->
-  <h1 class="container-header" id="projects">projects</h1>
-  <div class="container">
-    <div class="item">
-      <h1>MaeshBot</h1>
-      <a href="https://devpost.com/software/maeshbot" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-      <h5 class="work-experience-date">12/2020</h5>
-      <li>A playlist converter bot on Discord</li>
-      <li>Used Node.js and Discord API to create a Discord bot that converts YouTube playlists
-        into Spotify playlists</li>
+  <div id="projects-container" class="container">
+    <h1 class="container-header" id="projects">Projects</h1>
+    <div class="item-container">
+      <div class="item">
+        <h1>MaeshBot</h1>
+        <a href="https://devpost.com/software/maeshbot" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+        <h5 class="work-experience-date">12/2020</h5>
+        <li>A playlist converter bot on Discord</li>
+        <li>Used Node.js and Discord API to create a Discord bot that converts YouTube playlists
+          into Spotify playlists</li>
+      </div>
+      <div class="item">
+        <h1>UBC Game Dev - Panic Titanic</h1>
+        <a href="https://www.ubcgamedev.com/panic-titanic" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+        <h5 class="work-experience-date">12/2020</h5>
+        <li>A social deductive multiplayer mystery game created with Unity</li>
+        <li>Implemented UI elements and various game mechanics with C# scripts</li>
+      </div>
     </div>
   </div>
 
-  <hr>
+  <!-- <hr> -->
 
   <!-- education -->
-  <h1 class="container-header">education</h1>
-  <div class="container">
+<div id="education-container" class="container">
+  <h1 class="container-header">Education</h1>
+  <div class="item-container">
     <div class="item">
       <h1>École Alpha Secondary School</h1>
       <h5 class="work-experience-date">09/2014 - 06/2019</h5>
@@ -82,44 +95,7 @@
       <p>Combined Major in Science - 3rd Year</p>
     </div>
   </div>
-
-  <!-- work experience
-  <h1 class="work-experience-header" id="work-experience">work experience</h1>
-  <div class="work-experience">
-    <h1>Triple O's, Pacific National Exhibition (PNE)</h1>
-    <h5 class="work-experience-date">06/2017 - present</h5>
-    <li>Worked in a high intensity environment to serve food in a timely manner</li>
-  </div>
-  <div class="work-experience">
-    <h1>Christine Sinclair Community Centre</h1>
-    <h5 class="work-experience-date">06/2021 - 08/2021</h5>
-    <li>Directed and checked in guests for COVID-19 vaccinations</li>
-  </div>
-
-
-  <h1 class="work-experience-header" id="projects">projects</h1>
-  <div class="work-experience" id="work-experience">
-    <h1>MaeshBot</h1>
-    <h5 class="work-experience-date">12/2020</h5>
-    <li>A playlist converter bot on Discord</li>
-    <li>Used Node.js and Discord API to create a Discord bot that converts YouTube playlists
-      into Spotify playlists</li>
-  </div>
-
-  <h1 class="work-experience-header" id="projects">education</h1>
-  <div class="work-experience" id="work-experience">
-    <h1>École Alpha Secondary School</h1>
-    <h5 class="work-experience-date">09/2014-06/2019</h5>
-  </div>
-  <div class="work-experience" id="work-experience">
-    <h1>University of British Columbia</h1>
-    <h5 class="work-experience-date">12/2020</h5>
-    <li>A playlist converter bot on Discord</li>
-    <li>Used Node.js and Discord API to create a Discord bot that converts YouTube playlists
-      into Spotify playlists</li>
-  -->
-
-
+</div>
 
   <footer class="footer">
     <div class="footer-container facebook">
