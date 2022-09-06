@@ -1,14 +1,18 @@
+/* animations */
+
+@keyframes fade-in {
+    from {color: #a2d2ff00;}
+    to {color: #a2d2ff;}
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
     margin: 0px;
-    /* background-color: #0E6B6C; */
-    /* #111b1 */
     background-image: linear-gradient(#0E6B6C, #000000);
     text-align: center;
-    /* color: #E7ECEF; */
     color: white;
     font-family: 'Rubik', sans-serif;
     font-size: 2rem;
@@ -24,7 +28,11 @@ hr {
 
 
 .title {
-    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 2rem;
     margin-top: 15%;
     margin-bottom: 20%;
 }
@@ -32,10 +40,6 @@ hr {
 
 .inline-block {
     display: inline-block;
-}
-
-.title .intro {
-    display: none;
 }
 
 .intro {
@@ -175,15 +179,9 @@ hr {
     background-color: #81B29A;
 }
 
-/* #work-experience {
-    margin: 50rem auto auto;
-} */
-
-#hi {
-    font-size: 10rem;
-}
-
 #name-tag {
     color: #a2d2ff;
     display: inline;
+    animation-name: fade-in;
+    animation-duration: 4s;
 }
