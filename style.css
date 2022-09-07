@@ -123,6 +123,7 @@ hr {
 }
 
 .item-container .item>.item-header {
+    display: inline-block;
     font-size: 2rem;
     font-weight: 700;
 }
@@ -132,11 +133,12 @@ hr {
 }
 
 .container {
-    min-height: 50vh;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding: 64px 32px;
 }
 
 .container-header {
@@ -146,9 +148,9 @@ hr {
 }
 
 .item i {
-    margin-left: 1rem;
-    display: inline-block;
+    margin-left: 32px;
     color: #E7ECEF;
+    font-size: 1.5rem;
 }
 
 .item i:hover {
@@ -172,6 +174,7 @@ hr {
 
 #projects-container .item {
     background-color: #272a4c;
+    display: inline;
 }
 
 #work-experience-container {
