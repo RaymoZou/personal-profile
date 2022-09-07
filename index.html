@@ -15,61 +15,58 @@
   <!-- FontAwesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-
-  <script src="app.js"></script>
 </head>
 
 <body>
 
   <div class="nav-bar">
-    <a href="#work-experience-container">work experience</a>
     <a href="#">home</a>
+    <a href="#work-experience-container">work experience</a>
     <a href="#projects-container">projects</a>
+    <a href="#education-container">education</a>
   </div>
 
-  <div class="title">
-    <h1 class="intro" id="hi">Hi,</h1>
-    <h1 class="intro">I'm <p id="name-tag">Raymond</p></h1>
+  <div class="title-container">
+    <div>Hi,</div>
+    <div>I'm <span id="name-tag">Raymond</span></div>
     <hr>
   </div>
 
   <!-- work experience -->
   <div id="work-experience-container" class="container">
-    <h1 class="container-header" id="work-experience">Work Experience</h1>
+    <div class="container-header" id="work-experience">Work Experience</div>
     <div class="item-container">
       <div class="item">
-        <h1>Triple O's, Pacific National Exhibition (PNE)</h1>
-        <h5 class="work-experience-date">06/2017 - present</h5>
-        <li>Worked in a high intensity environment to serve food in a timely manner</li>
+        <div class="item-header">Triple O's, Pacific National Exhibition (PNE)</div>
+        <div class="work-experience-date">06/2017 - 2020</div>
+        <div class="item-desc">Worked in a high intensity environment to serve food in a timely manner</div>
       </div>
       <div class="item">
-        <h1>Christine Sinclair Community Centre</h1>
-        <h5 class="work-experience-date">06/2021 - 08/2021</h5>
-        <li>Directed and checked in guests for COVID-19 vaccinations</li>
+        <div class="item-header">Christine Sinclair Community Centre</div>
+        <div class="work-experience-date">06/2021 - 08/2021</div>
+        <div class="item-desc">Directed and checked in guests for COVID-19 vaccinations</div>
       </div>
     </div>
   </div>
 
-  <!-- <hr> -->
-
   <!-- projects -->
   <div id="projects-container" class="container">
-    <h1 class="container-header" id="projects">Projects</h1>
+    <div class="container-header" id="projects">Projects</div>
     <div class="item-container">
       <div class="item">
-        <h1>MaeshBot</h1>
+        <div class="item-header">MaeshBot</div>
         <a href="https://devpost.com/software/maeshbot" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-        <h5 class="work-experience-date">12/2020</h5>
-        <li>A playlist converter bot on Discord</li>
-        <li>Used Node.js and Discord API to create a Discord bot that converts YouTube playlists
-          into Spotify playlists</li>
+        <div class="work-experience-date">12/2020</div>
+        <div>A playlist converter bot on Discord</div>
+        <div>Used Node.js and Discord API to create a Discord bot that converts YouTube playlists
+          into Spotify playlists</div>
       </div>
       <div class="item">
-        <h1>UBC Game Dev - Panic Titanic</h1>
+        <div class="item-header">UBC Game Dev - Panic Titanic</div>
         <a href="https://www.ubcgamedev.com/panic-titanic" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-        <h5 class="work-experience-date">12/2020</h5>
-        <li>A social deductive multiplayer mystery game created with Unity</li>
-        <li>Implemented UI elements and various game mechanics with C# scripts</li>
+        <div class="work-experience-date">12/2020</div>
+        <div>A social deductive multiplayer mystery game created with Unity</div>
+        <div>Implemented UI elements and various game m chanics with C# scripts</div>
       </div>
     </div>
   </div>
@@ -77,22 +74,22 @@
   <!-- <hr> -->
 
   <!-- education -->
-<div id="education-container" class="container">
-  <h1 class="container-header">Education</h1>
-  <div class="item-container">
-    <div class="item">
-      <h1>École Alpha Secondary School</h1>
-      <h5 class="work-experience-date">09/2014 - 06/2019</h5>
-    </div>
-    <div class="item">
-      <h1>University of British Columbia</h1>
-      <h5 class="work-experience-date">06/2019 - present</h5>
-      <p>Combined Major in Science - 3rd Year</p>
+  <div id="education-container" class="container">
+    <div class="container-header">Education</div>
+    <div class="item-container">
+      <div class="item">
+        <div class="item-header">École Alpha Secondary School</div>
+        <div class="work-experience-date">09/2014 - 06/2019</div>
+      </div>
+      <div class="item">
+        <div class="item-header">University of British Columbia</div>
+        <div class="work-experience-date">09/2019 - present</div>
+        <div>Combined Major in Science - 3rd Year</div>
+      </div>
     </div>
   </div>
-</div>
 
-  <footer class="footer">
+  <div class="footer">
     <div class="footer-container facebook">
       <i class="fab fa-facebook"></i>
       <a href="https://www.facebook.com/raymond.zou.1" target="blank">facebook</a>
@@ -109,7 +106,7 @@
       <i class="fab fa-github"></i>
       <a href="https://github.com/RaymoZou" target="blank">github</a>
     </div>
-  </footer>
+  </div>
 
 </body>
 

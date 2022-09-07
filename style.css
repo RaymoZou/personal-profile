@@ -12,11 +12,10 @@ html {
 body {
     margin: 0px;
     background-image: linear-gradient(#0E6B6C, #000000);
-    text-align: center;
     color: white;
     font-family: 'Rubik', sans-serif;
-    font-size: 2rem;
-    font-weight: normal; 
+    display: flex;
+    flex-direction: column;
 }
 
 hr {
@@ -27,41 +26,37 @@ hr {
 }
 
 
-.title {
+.title-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    /* align-items: center; */
     font-size: 2rem;
-    margin-top: 15%;
-    margin-bottom: 20%;
+    height: 100vh;
 }
 
-
-.inline-block {
-    display: inline-block;
-}
-
-.intro {
-    margin: 0px auto;
+.title-container div {
+    font-size: 4rem;
 }
 
 .nav-bar {
-    /* background-color: #363945; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 12px;
     background-color: #000000;
-    height: 50px;
     width: 100%;
     position: fixed;
-    top: 0;
+    top: 0px;
 }
 
 .nav-bar a {
     color: #E7ECEF;
-    display: inline-block;
     text-decoration: none;
     font-size: 1.5rem;
     text-align: center;
-    margin: auto 5rem;
 }
 
 .nav-bar a:hover {
@@ -81,16 +76,17 @@ hr {
 }
 
 .footer {
-    /* background-color: #22333B;  */
+    display: flex;
+    justify-content: center;
     background-color: #000000;
-    position: absolute;
     width: 100%;
+    bottom: 0px;
 }
 
 .footer-container {
     font-size: 1.25rem;
     display: inline-block;
-    padding: 3rem 2rem;
+    padding: 12px;
 }
 
 .facebook:hover {
@@ -116,43 +112,37 @@ hr {
 }
 
 .item-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    text-align: left;
-    margin: 0rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.item-container .item {
+    padding: 32px;
+    border-radius: 8px;
+    margin: 16px;
+}
+
+.item-container .item>.item-header {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.item-container .item>.item-desc {
+    font-size: 2rem;
 }
 
 .container {
-    padding: 10rem 2rem;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-header {
-    margin: 0rem auto;
-    padding-top: 0rem;
-    font-size: 7rem;
+    font-size: 4rem;
     font-weight: 900;
-    /* text-decoration: underline; */
-    /* color: #a2d2ff; */
     color: white;
-}
-
-.item {
-    padding: 1rem;
-}
-
-.item h1 {
-    margin: 0px auto;
-    font-size: 3rem;
-    display: inline-block;
-}
-
-.item h5 {
-    margin: 0px auto;
-}
-
-.item li {
-    margin-top: 2rem;
 }
 
 .item i {
@@ -162,6 +152,7 @@ hr {
 }
 
 .item i:hover {
+    display: inline;
     color: #b7e5ff;
 }
 
@@ -171,12 +162,24 @@ hr {
     background-color: #E07A5F;
 }
 
+#education-container .item {
+    background-color: #b3563d;
+}
+
 #projects-container {
     background-color: #3D405B;
 }
 
+#projects-container .item {
+    background-color: #272a4c;
+}
+
 #work-experience-container {
     background-color: #81B29A;
+}
+
+#work-experience-container .item {
+    background-color: #55816c;
 }
 
 #name-tag {
