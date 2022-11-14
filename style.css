@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /* animations */
 
 @keyframes fade-in {
@@ -11,9 +12,9 @@ html {
 
 body {
     margin: 0px;
-    background-image: linear-gradient(#0E6B6C, #000000);
+    background-color: #222831;
     color: white;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -59,8 +60,19 @@ hr {
     text-align: center;
 }
 
-.nav-bar a:hover {
-    color: rgb(219, 219, 219);
+#home-nav:hover {
+    color: #a2d2ff;
+}
+
+#work-experience-nav:hover {
+    color: #1982c4;
+}
+
+#projects-nav:hover {
+    color: #6a4c93;
+}
+#education-nav:hover {
+    color: #ff595e;
 }
 
 .nav-bar p {
@@ -112,14 +124,17 @@ hr {
 }
 
 .item-container {
+    margin-top: 16px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    width: 100%;
 }
 
 .item-container .item {
     padding: 32px;
-    border-radius: 8px;
-    margin: 16px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .item-container .item>.item-header {
@@ -161,28 +176,28 @@ hr {
 /* ids */
 
 #education-container {
-    background-color: #E07A5F;
+    background-color: #222831;
 }
 
 #education-container .item {
-    background-color: #b3563d;
+    background-color: #ff595e;
 }
 
 #projects-container {
-    background-color: #3D405B;
+    background-color: #222831;
 }
 
 #projects-container .item {
-    background-color: #272a4c;
+    background-color: #6a4c93;
     display: inline;
 }
 
 #work-experience-container {
-    background-color: #81B29A;
+    background-color: #222831;
 }
 
 #work-experience-container .item {
-    background-color: #55816c;
+    background-color: #1982c4;
 }
 
 #name-tag {
