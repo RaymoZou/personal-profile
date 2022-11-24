@@ -2,8 +2,8 @@
 /* animations */
 
 @keyframes fade-in {
-    from {color: #a2d2ff00;}
-    to {color: #a2d2ff;}
+    from {color: #FD841F00;}
+    to {color: #FD841F;}
 }
 
 html {
@@ -61,18 +61,18 @@ hr {
 }
 
 #home-nav:hover {
-    color: #a2d2ff;
+    color: #FD841F;
 }
 
 #work-experience-nav:hover {
-    color: #1982c4;
+    color: #E14D2A;
 }
 
 #projects-nav:hover {
-    color: #6a4c93;
+    color: #9C2C77;
 }
 #education-nav:hover {
-    color: #ff595e;
+    color: #CD104D;
 }
 
 .nav-bar p {
@@ -180,7 +180,7 @@ hr {
 }
 
 #education-container .item {
-    background-color: #ff595e;
+    background-color: #CD104D;
 }
 
 #projects-container {
@@ -188,7 +188,7 @@ hr {
 }
 
 #projects-container .item {
-    background-color: #6a4c93;
+    background-color: #9C2C77;
     display: inline;
 }
 
@@ -197,11 +197,11 @@ hr {
 }
 
 #work-experience-container .item {
-    background-color: #1982c4;
+    background-color: #E14D2A;
 }
 
 #name-tag {
-    color: #a2d2ff;
+    color: #FD841F;
     display: inline;
     animation-name: fade-in;
     animation-duration: 4s;
