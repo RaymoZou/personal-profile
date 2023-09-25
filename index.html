@@ -1,138 +1,167 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Raymond Zou</title>
+    <link rel="stylesheet" href="style.css" />
 
-<head>
-  <meta charset="utf-8">
-  <title>Raymond Zou</title>
-  <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
 
-  <!-- FontAwesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-</head>
+  <body>
+    <div class="nav-bar">
+      <a href="#" id="home-nav">home</a>
+      <a href="#work-experience-container" id="work-experience-nav"
+        >work experience</a
+      >
+      <a href="#projects-container" id="projects-nav">projects</a>
+      <a href="#education-container" id="education-nav">education</a>
+    </div>
 
-<body>
+    <div class="title-container">
+      <div>Hi,</div>
+      <div>I'm <span id="name-tag">Raymond</span></div>
+      <hr />
+    </div>
 
-  <div class="nav-bar">
-    <a href="#" id="home-nav">home</a>
-    <a href="#work-experience-container" id="work-experience-nav">work experience</a>
-    <a href="#projects-container" id="projects-nav">projects</a>
-    <a href="#education-container" id="education-nav">education</a>
-  </div>
-
-  <div class="title-container">
-    <div>Hi,</div>
-    <div>I'm <span id="name-tag">Raymond</span></div>
-    <hr>
-  </div>
-
-  <!-- work experience -->
-  <div id="work-experience-container" class="container">
-    <div class="container-header" id="work-experience">Work Experience</div>
-    <div class="item-container">
-      <div class="item">
-        <div class="item-header">Triple O's, Pacific National Exhibition (PNE)</div>
-        <div class="work-experience-date">2017 - 2020</div>
-        <div>- Worked in a high intensity environment to serve food in a timely manner</div>
-      </div>
-      <div class="item">
-        <div class="item-header">Christine Sinclair Community Centre</div>
-        <div class="work-experience-date">2021</div>
-        <div>- Directed and checked in guests for COVID-19 vaccinations</div>
+    <!-- work experience -->
+    <div id="work-experience-container" class="container">
+      <div class="container-header" id="work-experience">Work Experience</div>
+      <div class="item-container">
+        <div class="item">
+          <div class="item-header">
+            Triple O's, Pacific National Exhibition (PNE)
+          </div>
+          <div class="work-experience-date">2017 - 2020</div>
+          <div>
+            - Worked in a high intensity environment to serve food in a timely
+            manner
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-header">Christine Sinclair Community Centre</div>
+          <div class="work-experience-date">2021</div>
+          <div>- Directed and checked in guests for COVID-19 vaccinations</div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- projects -->
-  <div id="projects-container" class="container">
-  <div class="container-header" id="projects">Projects</div>
-    <div class="item-container">
-      <div class="item">
-        <div class="item-header">MaeshBot</div>
-        <a href="https://devpost.com/software/maeshbot" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-        <div class="work-experience-date">Dec 2020</div>
-        <div>- A playlist converter bot on Discord</div>
-        <div>- Used Node.js and Discord API to create a Discord bot that converts YouTube playlists
-          into Spotify playlists</div>
-      </div>
-      <!-- <div class="item">
-        <div class="item-header">ScratchNote</div>
-        <a href="https://raymozou.github.io/scratchnote/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-        <div class="work-experience-date">Aug 2021</div>
-        <div>- A simple note-taking app created using React.js</div>
-      </div> -->
-      <div class="item">
-        <div class="item-header">LinkedOut</div>
-        <a href="https://github.com/raymozou/linked-out" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-        <div class="work-experience-date">Dec 2022</div>
-        <div>- A replication of the popular social media website LinkedIn</div>
-        <div>- Read and write post functionality built with Firebase</div>
-      </div>
-      <div class="item">
-        <div class="item-header">UBC Game Dev - Panic Titanic</div>
-        <a href="https://www.ubcgamedev.com/panic-titanic" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-        <div class="work-experience-date">Dec 2020</div>
-        <div>- A social deductive multiplayer mystery game created with Unity</div>
-        <div>- Implemented UI elements and various game mechanics with C# scripts</div>
-      </div>
-      <div class="item">
-        <div class="item-header">Calculator</div>
-        <a href="https://raymozou.github.io/calculator/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-        <div class="work-experience-date">June 2022</div>
-        <div>- A calculator with addition, subtraction, division & multiplication functions with whole numbers</div>
-      </div>
-      <div class="item">
-        <div class="item-header">Tic-Tac-Toe</div>
-        <a href="https://raymozou.github.io/tic-tac-toe/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-        <div class="work-experience-date">June 2022</div>
-        <div>- A classic game of Tic-Tac-Toe</div>
+    <!-- projects -->
+    <div id="projects-container" class="container">
+      <div class="container-header" id="projects">Projects</div>
+      <div class="item-container">
+        <div class="item">
+          <div class="item-header">MaeshBot</div>
+          <a href="https://devpost.com/software/maeshbot" target="_blank"
+            ><i class="fas fa-external-link-alt"></i
+          ></a>
+          <div class="work-experience-date">Dec 2020</div>
+          <div>- A playlist converter bot on Discord</div>
+          <div>
+            - Used Node.js and Discord API to create a Discord bot that converts
+            YouTube playlists into Spotify playlists
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-header">LinkedOut</div>
+          <a href="https://github.com/raymozou/linked-out" target="_blank"
+            ><i class="fas fa-external-link-alt"></i
+          ></a>
+          <div class="work-experience-date">Dec 2022</div>
+          <div>
+            - A replication of the popular social media website LinkedIn
+          </div>
+          <div>- Read and write post functionality built with Firebase</div>
+        </div>
+        <div class="item">
+          <div class="item-header">UBC Game Dev - Panic Titanic</div>
+          <a href="https://www.ubcgamedev.com/panic-titanic" target="_blank"
+            ><i class="fas fa-external-link-alt"></i
+          ></a>
+          <div class="work-experience-date">Dec 2020</div>
+          <div>
+            - A social deductive multiplayer mystery game created with Unity
+          </div>
+          <div>
+            - Implemented UI elements and various game mechanics with C# scripts
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-header">Rubik's Search</div>
+          <a href="https://github.com/RaymoZou/rubiks-search" target="_blank"
+            ><i class="fas fa-external-link-alt"></i
+          ></a>
+          <div class="work-experience-date">June 2023</div>
+          <div>- A Rubik's Cube solver implemented using Thistlethwaite's algorithm with an IDDFS approach</div>
+        </div>
+        <div class="item">
+          <div class="item-header">Project B</div>
+          <a href="https://github.com/RaymoZou/project-b" target="_blank"
+            ><i class="fas fa-external-link-alt"></i
+          ></a>
+          <div class="work-experience-date">July 2023</div>
+          <div>- A platformer prototype created with Unity</div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- <hr> -->
+    <!-- <hr> -->
 
-  <!-- education -->
-  <div id="education-container" class="container">
-    <div class="container-header">Education</div>
-    <div class="item-container">
-      <div class="item">
-        <div class="item-header">École Alpha Secondary School</div>
-        <div class="work-experience-date">2014 - 2019</div>
+    <!-- education -->
+    <div id="education-container" class="container">
+      <div class="container-header">Education</div>
+      <div class="item-container">
+        <div class="item">
+          <div class="item-header">École Alpha Secondary School</div>
+          <div class="work-experience-date">2014 - 2019</div>
+        </div>
+        <div class="item">
+          <div class="item-header">University of British Columbia</div>
+          <div class="work-experience-date">Sept 2019 - present</div>
+          <div>Combined Major in Science - 4th Year</div>
+        </div>
       </div>
-      <div class="item">
-        <div class="item-header">University of British Columbia</div>
-        <div class="work-experience-date">Sept 2019 - present</div>
-        <div>Combined Major in Science - 3rd Year</div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-container facebook">
+        <i class="fab fa-facebook"></i>
+        <a href="https://www.facebook.com/raymond.zou.1" target="blank"
+          >facebook</a
+        >
+      </div>
+      <div class="footer-container instagram">
+        <i class="fab fa-instagram"></i>
+        <a href="https://www.instagram.com/raymozou/?hl=en" target="blank"
+          >instagram</a
+        >
+      </div>
+      <div class="footer-container twitter">
+        <i class="fab fa-twitter"></i>
+        <a href="https://twitter.com/raymozou" target="blank">twitter</a>
+      </div>
+      <div class="footer-container github">
+        <i class="fab fa-github"></i>
+        <a href="https://github.com/RaymoZou" target="blank">github</a>
       </div>
     </div>
-  </div>
-
-  <div class="footer">
-    <div class="footer-container facebook">
-      <i class="fab fa-facebook"></i>
-      <a href="https://www.facebook.com/raymond.zou.1" target="blank">facebook</a>
-    </div>
-    <div class="footer-container instagram">
-      <i class="fab fa-instagram"></i>
-      <a href="https://www.instagram.com/raymozou/?hl=en" target="blank">instagram</a>
-    </div>
-    <div class="footer-container twitter">
-      <i class="fab fa-twitter"></i>
-      <a href="https://twitter.com/raymozou" target="blank">twitter</a>
-    </div>
-    <div class="footer-container github">
-      <i class="fab fa-github"></i>
-      <a href="https://github.com/RaymoZou" target="blank">github</a>
-    </div>
-  </div>
-
-</body>
-
+  </body>
 </html>
