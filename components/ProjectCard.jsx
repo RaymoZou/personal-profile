@@ -1,14 +1,14 @@
-export default function Nav() {
-    return (
-      <div className="flex gap-4 ml-24 mt-16 text-xl tracking-wide font-semibold">
-        <a className="opacity-50 hover:opacity-100" href="/">HOME</a>
-        <a className="opacity-50 hover:opacity-100" href="/projects">PROJECTS</a>
-        {/* <Nav url="/blog">Blog</Nav> */}
-      </div>
-  
-      // <a href={url} className="text-2xl">
-      //   {children}
-      // </a>
-    );
-  }
-  
+import Link from "next/link";
+
+export default function ProjectCard(props) {
+  return (
+    <Link
+      href={props.href}
+      className="flex-col p-6 max-w-md hover:bg-teal-600/25 transition duration-100 ease-in-out rounded-md"
+    >
+      <h1 className="text-3xl">{props.name}</h1>
+      <hr className="w-1/2 my-2"></hr>
+      <div>{props.description}</div>
+    </Link>
+  );
+}

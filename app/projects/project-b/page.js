@@ -8,13 +8,15 @@ export default function Page() {
             <div className="w-full h-2/3 bg-gradient-to-t from-black"></div>
         </div>
 
-        <div className="m-24 h-screen">
-            <h1 className="text-5xl font-bold">Project B</h1>
-            <div className="flex gap-4 mt-4">
-                <div className="bg-white text-black font-bold text-xl px-3 py-1 rounded tracking-widest">UNITY</div>
-                <div className="bg-white text-black font-bold text-xl px-3 py-1 rounded tracking-widest">C#</div>
+        <div className="m-24">
+            <div>
+                <h1 className="text-5xl font-bold">Project B</h1>
+                <div className="flex gap-4 mt-4">
+                    <div className="bg-white text-black font-bold text-xl px-3 py-1 rounded tracking-widest">UNITY</div>
+                    <div className="bg-white text-black font-bold text-xl px-3 py-1 rounded tracking-widest">C#</div>
+                </div>
             </div>
-            <div className="my-16 grid grid-cols-4">
+            <div className="my-16 grid grid-cols-4 gap-2">
                 <h1 className="text-3xl font-semibold col-span-3">Description</h1>
                 <div className="row-span-2 flex flex-col gap-1">
                     <h1 className="text-3xl font-bold">Link</h1>
@@ -27,10 +29,17 @@ export default function Page() {
                     such as character movement and establising a clear progression path with ramping difficulty to make the game enjoyable to play.
                 </p>
             </div>
-            {/* <div>
+            <div className="flex gap-4 flex-col">
                 <h1 className="text-3xl font-semibold col-span-3">Media</h1>
-                <img className="" src="/project-b1.png"/>
-            </div> */}
+                <img className="max-w-4xl" src="/project-b1.png" />
+            </div>
+            <div className="my-16 grid grid-cols-4 gap-2">
+                <h1 className="text-3xl font-semibold col-span-3">Development</h1>
+                <p className="text-lg col-span-2">
+                    All of the pixel art assets were created using Aseprite - a popular image editor used for creating pixel art and animations. The development process consisted
+                    of implementing different subgoals such as player movement and level progression that would ultimately make up the minimal viable product (MVP).
+                </p>
+            </div>
         </div>
 
     </>)
