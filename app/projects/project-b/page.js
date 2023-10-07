@@ -8,7 +8,7 @@ export default function Page() {
             <div className="w-full h-2/3 bg-gradient-to-t from-black"></div>
         </div>
 
-        <div className="m-24">
+        <div className="m-12 md:m-24">
             <div>
                 <h1 className="text-5xl font-bold">Project B</h1>
                 <div className="flex gap-4 mt-4">

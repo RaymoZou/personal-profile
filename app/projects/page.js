@@ -5,8 +5,8 @@ export default function Page() {
     return (
         <>
             <Nav />
-            <div className="m-24">
-                <h1 className="text-white text-lg">Here are some of the projects I have worked on.</h1>
+            <div className="m-12 md:m-24 md:mr-48">
+                <h1 className="text-white text-4xl text-center">Projects</h1>
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-4">
                     <ProjectCard
                         href="/projects/project-b"
