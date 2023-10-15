@@ -28,3 +28,8 @@ export default function Page() {
         </>
     )
 }
+
+export const metadata = {
+    title: 'Projects',
+    descripton: 'Some of my previous projects I have worked on.'
+}
