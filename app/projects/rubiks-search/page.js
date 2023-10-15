@@ -9,16 +9,16 @@ export default function Page() {
         </div> */}
         <Nav/>
 
-        <div className="m-12 md:m-24 min-h-screen">
+        <div className="m-12 md:m-24">
             <div className="">
                 <h1 className="text-5xl font-bold text-center md:text-left">Rubik's Search</h1>
                 <div className="flex justify-center gap-4 mt-4 md:justify-start">
                     <div className="bg-white text-black font-bold text-xl px-3 py-1 rounded tracking-widest">JAVA</div>
                 </div>
             </div>
-            <div className="my-16 flex flex-col md:grid grid-cols-4 gap-24">
+            <div className="my-16 flex flex-col md:grid grid-cols-4 gap-12">
                 <div className="flex flex-col gap-4 col-span-2">
-                    <h1 className="text-4xl font-semibold text-center md:text-left">Description</h1>
+                    <h1 className="text-4xl font-semibold">Description</h1>
                     <p className="text-lg">
                         This is a Rubik's Cube Solver that implements Thistletwaite's Algorithm using a series of iterative depth-first searches to solve sequential subgroups.
                         Cube states are represented as an array of chars and actions correspond to quarter and half turns of each face. See

@@ -7,7 +7,7 @@ export default function Page() {
             <Nav />
             <div className="m-12 md:mx-48">
                 <h1 className="text-5xl font-bold text-center">Projects</h1>
-                <div className="flex flex-col items-center md:flex-row gap-4 mt-8">
+                <div className="flex flex-col items-center md:flex-row md:items-start mt-8">
                     <ProjectCard
                         href="/projects/project-b"
                         name="Project B"

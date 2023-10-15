@@ -7,9 +7,9 @@ export default function Page() {
             <Nav />
             <div className="w-full h-2/3 bg-gradient-to-t from-black"></div>
         </div> */}
-        <Nav/>
+        <Nav />
 
-        <div className="m-12 md:m-24 min-h-screen">
+        <div className="m-12 md:m-24">
             <div className="">
                 <h1 className="text-5xl font-bold text-center md:text-left">Project B</h1>
                 <div className="flex justify-center gap-4 mt-4 md:justify-start">
@@ -17,7 +17,7 @@ export default function Page() {
                     <div className="bg-white text-black font-bold text-xl px-3 py-1 rounded tracking-widest">C#</div>
                 </div>
             </div>
-            <div className="my-16 flex flex-col md:grid grid-cols-4 gap-24">
+            <div className="my-16 flex flex-col md:grid grid-cols-4 gap-12">
                 <div className="flex flex-col col-span-2 gap-4">
                     <h1 className="text-4xl font-semibold">Description</h1>
                     <p className="text-lg">
