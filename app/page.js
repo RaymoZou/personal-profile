@@ -28,6 +28,7 @@ export default function Homepage() {
 }
 
 export const metadata = {
-  title: 'Homepage',
-  descripton: 'This is the homepage.'
+  title: 'Raymond Zou - Web Developer Portfolio',
+  description: `Welcome to Raymond Zou's personal website. Explore some of my recent projects and learn more about the path
+  I'm taking to become a web developer.`
 }
