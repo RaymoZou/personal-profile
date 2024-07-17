@@ -3,10 +3,6 @@ import Nav from '../../../components/Nav';
 export default function Page() {
     return (<>
 
-        {/* <div className="bg-[url('/project-b1.png')] w-full h-48 md:h-96 flex flex-col justify-between">
-            <Nav />
-            <div className="w-full h-2/3 bg-gradient-to-t from-black"></div>
-        </div> */}
         <Nav />
 
         <div className="m-12 md:m-24">
@@ -28,7 +24,7 @@ export default function Page() {
                 </div>
                 <div className="flex flex-col gap-1 col-start-3">
                     <h1 className="text-3xl font-semibold">Link</h1>
-                    <a className="text-green hover:text-darkgreen font-bold text-xl" href="https://simmer.io/@raymozou/project-b" target="_blank">Demo</a>
+                    <a className="text-green hover:text-darkgreen font-bold text-xl" href="https://r4ymo.itch.io/project-b" target="_blank">Demo</a>
                     <a className="text-green hover:text-darkgreen font-bold text-xl" href="https://github.com/raymozou/project-b" target="_blank">Github</a>
                 </div>
                 <div className="flex flex-col md:col-span-2 gap-4">
