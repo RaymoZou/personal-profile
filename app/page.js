@@ -8,10 +8,10 @@ export default function Homepage() {
                 <img src="raymond-profile.jfif" className="rounded-full h-48" />
             </div>
             <br />
-            <p className="text-white text-lg">Hi I'm Raymond! I'm a 5th year student studying at the University of British Columbia,
-                currently completing a Combined Major in Science in Computer Science, Life Science and Earth & Environemntal Science. I am
+            <p className="text-white text-lg">Hi I'm Raymond! I'm a UBC graduate in the Combined Major in Science program with a focus
+                in Computer Science, Life Science and Earth & Environemntal Science. I am
                 a highly passionate fullstack web developer who enjoys transforming ideas into solutions for the ongoing challenges
-                presented by the digital world.
+                presented by the digital world. My current interest is in graphics programming with graphics APIs such OpenGL.
             </p>
             <br />
             <p className="text-white text-lg">
