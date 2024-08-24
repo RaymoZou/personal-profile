@@ -1,4 +1,3 @@
-import Footer from '../components/Footer';
 import './globals.css'
 
 export default function RootLayout({ children }) {
@@ -7,7 +6,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="bg-black text-white flex flex-col min-h-screen justify-between">
         <div>{children}</div>
-        <Footer />
       </body>
     </html>
   )

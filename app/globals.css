@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes fadeIn {
+ 0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+ 0% {
+    visibility: visible;
+    opacity: 1;
+  }
+  100% {
+    display: none;
+    opacity: 0;
+  }
+}
+
+.animate-programmer {
+     animation: fadeIn 1s ease-out, fadeOut 1s ease-out;
+     animation-fill-mode: forwards;
+     animation-delay: 0s, 1s;
+}
+
+.animate-gamedev {
+     animation: fadeIn 1s ease-out, fadeOut 1s ease-out;
+     animation-fill-mode: forwards;
+     animation-delay: 2s, 3s;
+}
+
+.animate-creator {
+     animation: fadeIn 1s ease-out, fadeOut 1s ease-out;
+     animation-fill-mode: forwards;
+     animation-delay: 4s, 5s;
+}
+
+.animate-raymond {
+     animation: fadeIn 1s ease-out;
+     animation-fill-mode: forwards;
+     animation-delay: 6s
+}
