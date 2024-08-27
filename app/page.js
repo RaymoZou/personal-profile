@@ -30,8 +30,8 @@ export default function Homepage() {
             <br />
             <p className="text-white text-lg">
                 have a cool idea, or just want to say hello? you can reach me at
-                <a href="mailto:raymond.zf.zou@gmail.com" className="text-green hover:text-darkgreen font-bold"> raymond.zf.zou@gmail.com</a>
-                . you can also check out my resume <a href="/resume.pdf" className="font-bold text-green hover:text-darkgreen">here.</a>
+                <a href="mailto:raymond.zf.zou@gmail.com" className="text-green hover:text-darkgreen transition duration-300 font-bold"> raymond.zf.zou@gmail.com</a>
+                . you can also check out my resume <a target="_blank" href="/resume.pdf" className="text-green hover:text-darkgreen transition duration-300 font-bold">here.</a>
             </p>
 
             <hr className="w-1/2 mx-auto border-t-4 my-12" />
