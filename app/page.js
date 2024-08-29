@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 export default function Homepage() {
     return <>
         <Nav />
-        <div className="my-12 mx-12 lg:mx-48 xl:mx-96 ">
+        <div className="my-12 mx-12 lg:mx-48 xl:mx-96 font-mono">
 
             {/* intro */}
             <h1 className="h-24 text-center lg:text-start text-white font-bold text-4xl lg:text-6xl">
