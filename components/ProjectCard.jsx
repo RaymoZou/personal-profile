@@ -3,7 +3,7 @@ export default function ProjectCard(props) {
         <a
             href={props.href}
             target="_blank"
-            className="text-center flex flex-col flex-1 p-4 hover:bg-white/5 hover:scale-105 transition duration-500 ease-in-out rounded-md"
+            className="text-center gap-4 flex flex-col flex-1 p-4 hover:bg-white/5 hover:scale-105 transition duration-500 ease-in-out rounded-md"
         >
             <img className="rounded-lg lg:object-cover lg:max-h-48" src={props.preview} />
             <h2 className="font-bold text-3xl">{props.name}</h2>
