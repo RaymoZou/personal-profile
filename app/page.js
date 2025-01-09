@@ -46,6 +46,12 @@ export default function Homepage() {
                     preview="linked-out2.png"
                 />
                 <ProjectCard
+                    href="https://tennisgoat100.com/"
+                    name="Tennis Goat 100"
+                    description="a website homepage home to the greatest tennis players of all time"
+                    preview="tg100.png"
+                />
+                <ProjectCard
                     href="https://github.com/RaymoZou/rubiks-search"
                     name="rubik's search"
                     description="a suboptimal Rubik's Cube solver that implements Thistlethwaite's algorithm"
