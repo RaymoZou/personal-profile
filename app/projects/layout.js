@@ -1,6 +1,6 @@
 export default function ProjectLayout({ children }) {
     return (
-        <section className="">
+        <section>
             {children}
         </section>
     )
