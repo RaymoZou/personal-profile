@@ -17,7 +17,7 @@ export default function Page() {
                 <div className="flex flex-col col-span-2 gap-4">
                     <h1 className="text-4xl font-semibold">Description</h1>
                     <p className="text-lg">
-                        Project B is a prototype platformer I developed last summer using the Unity game engine. One of the difficulties I have had in the past with developing games
+                        Project B is a prototype platformer I developed in summer of 2024 using the Unity game engine which was then ported to Godot. One of the difficulties I have had in the past with developing games
                         was choosing a manageable scope for the game. Thus, I chose to implement very simple mechanics for Project B and focus on the fundamentals of many platformers
                         such as character movement and establising a clear progression path with ramping difficulty to make the game enjoyable to play.
                     </p>
