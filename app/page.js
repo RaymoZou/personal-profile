@@ -37,7 +37,7 @@ export default function Homepage() {
             <hr className="w-1/2 mx-auto border-t-4 my-12" />
 
             {/* projects */}
-            <h1 id="projects" className="text-center lg:text-start text-sky-500 font-bold text-4xl my-12">projects</h1>
+            <h1 id="projects" className="text-center lg:text-start text-sky-500 font-bold text-4xl my-12">📂 projects</h1>
             <div className="gap-8 flex flex-col lg:flex-row lg:items-start mt-8">
                 <ProjectCard
                     href="https://github.com/RaymoZou/linked-out"
@@ -62,7 +62,7 @@ export default function Homepage() {
             <hr className="w-1/2 mx-auto border-t-4 my-12" />
 
             {/* games */}
-            <h1 id="games" className="text-violet-500 text-center lg:text-start font-bold text-4xl my-12">games</h1>
+            <h1 id="games" className="text-violet-500 text-center lg:text-start font-bold text-4xl my-12">🕹️ games</h1>
             <div className="gap-8 flex flex-col lg:flex-row lg:items-start mt-8">
                 <ProjectCard
                     href="https://r4ymo.itch.io/project-b"
