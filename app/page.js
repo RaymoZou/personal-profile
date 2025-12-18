@@ -40,6 +40,12 @@ export default function Homepage() {
             <h1 id="projects" className="text-center lg:text-start text-sky-500 font-bold text-4xl my-12">📂 projects</h1>
             <div className="gap-8 flex flex-col lg:flex-row lg:items-start mt-8">
                 <ProjectCard
+                    href="https://www.tadaima.app"
+                    name="Tadaima"
+                    description="a rental listing website that allows renters to find their perfect home with natural language"
+                    preview="tadaima.png"
+                />
+                <ProjectCard
                     href="https://github.com/RaymoZou/linked-out"
                     name="linkedout"
                     description="a social media app that features writing and reading posts from other users"
@@ -50,12 +56,6 @@ export default function Homepage() {
                     name="Tennis Goat 100"
                     description="a website homepage home to the greatest tennis players of all time"
                     preview="tg100.png"
-                />
-                <ProjectCard
-                    href="https://github.com/RaymoZou/rubiks-search"
-                    name="rubik's search"
-                    description="a suboptimal Rubik's Cube solver that implements Thistlethwaite's algorithm"
-                    preview="rubiks-cube.jpg"
                 />
             </div>
 
