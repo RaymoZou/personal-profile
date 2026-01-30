@@ -35,7 +35,7 @@ export default function Homepage() {
 
             {/* skills & tech */}
             <h1 id="skills" className="text-center lg:text-start text-green font-bold text-4xl my-12">skills & tech</h1>
-            <div className='flex gap-4'>
+            <div className='flex flex-wrap gap-4'>
                 <Image width={48} height={48} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
                 <Image width={48} height={48} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
                 <Image width={48} height={48} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
