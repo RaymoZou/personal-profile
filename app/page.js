@@ -103,8 +103,8 @@ export default function Homepage() {
             </div>
 
             {/* more */}
-            <h1 id="more" className="text-center lg:text-start text-green font-bold text-4xl my-12">more</h1>
-            <div>some <a href="/more" className="text-green hover:text-darkgreen transition duration-300 font-bold">more</a> stuff about me including my inspirations and values.</div>
+            <h1 id="more" className="text-center lg:text-start text-green font-bold text-4xl my-12">extras</h1>
+            <div>some <a href="/more" className="text-green hover:text-darkgreen transition duration-300 font-bold">more</a>fun little extras about me including my inspirations and values.</div>
             <Footer />
 
 
