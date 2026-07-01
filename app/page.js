@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function Homepage() {
     return <>
         <Nav />
-        <div className="my-12 mx-12 lg:mx-48 xl:mx-96 font-mono">
+        <div className="my-12 mx-12 lg:mx-48 font-mono">
 
             {/* intro */}
             <h1 className="h-24 text-center lg:text-start text-white font-bold text-2xl lg:text-6xl">
@@ -17,8 +17,7 @@ export default function Homepage() {
             </div>
             <br />
             <p className="text-white text-lg">i'm a ubc grad that studied computer science, life science and earth & environmental science in the combined major in science program. i am
-                a highly passionate fullstack web developer who enjoys transforming ideas into solutions for the ongoing challenges
-                presented by the digital world. my current interest is in graphics programming with graphics apis such as opengl.
+                a fullstack web developer who loves building software, games, tools, or anything that people find useful/fun in their daily lives. my current interest is in graphics programming with graphics apis such as opengl.
             </p>
             <br />
             <p className="text-white text-lg">
@@ -81,7 +80,14 @@ export default function Homepage() {
 
             {/* games */}
             <h1 id="games" className="text-green text-center lg:text-start font-bold text-4xl my-12">games</h1>
+            <p>i make games every now and then for fun! the tools i generally reach for when developing games are godot, aseprite and blender.</p> 
             <div className="gap-8 flex flex-col lg:flex-row lg:items-start mt-8">
+                <ProjectCard
+                    href="https://r4ymo.itch.io/stunlock"
+                    name="STUNLOCK"
+                    description="a top down online co-op shooter where players collect new weapons and fight for their survival against endless waves of enemies"
+                    preview="stunlock_preview.png"
+                />
                 <ProjectCard
                     href="https://r4ymo.itch.io/project-b"
                     name="project b"
@@ -92,23 +98,14 @@ export default function Homepage() {
                     href="https://r4ymo.itch.io/terrained"
                     name="terrained"
                     description="sandbox puzzler created for GMTK Game Jam 2024"
-                    preview="https://img.itch.zone/aW1nLzE3NDE4MDEzLnBuZw==/315x250%23c/b8pCHj.png"
-                />
-                <ProjectCard
-                    href="https://r4ymo.itch.io/shadowfall"
-                    name="shadowfall"
-                    description="vampire survivors-esque game created for Pirate Software Game Jam 15"
-                    preview="https://img.itch.zone/aW1nLzE3MTUyOTA2LnBuZw==/315x250%23c/vSVd2p.png"
+                    preview="terrained_preview.png"
                 />
             </div>
 
             {/* more */}
             <h1 id="more" className="text-center lg:text-start text-green font-bold text-4xl my-12">extras</h1>
-            <div>some <a href="/more" className="text-green hover:text-darkgreen transition duration-300 font-bold">more</a>fun little extras about me including my inspirations and values.</div>
+            <div>some <a href="/more" className="text-green hover:text-darkgreen transition duration-300 font-bold">more</a> fun little extras about me including my inspirations, values and hobbies.</div>
             <Footer />
-
-
-            {/* <iframe frameborder="0" src="https://itch.io/embed/2911893" width="552" height="167"><a href="https://r4ymo.itch.io/terrained">Terrained by Raymo, k3vo</a></iframe> */}
 
         </div>
     </>
@@ -116,5 +113,5 @@ export default function Homepage() {
 
 export const metadata = {
     title: 'Raymond Zou',
-    description: `Welcome to Raymond Zou's personal website. Come check out some of the cool stuff I'm working on!`
+    description: `Welcome to Raymond Zou's personal website. Software Engineer. Game Developer. Chill Guy.`
 }
